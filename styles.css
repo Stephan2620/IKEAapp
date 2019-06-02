@@ -1,0 +1,379 @@
+* {
+	margin: 0;
+	font-family: Helvetica;
+}
+p {
+	font-size: 140%;
+}
+h2 {
+	font-size: 135%;
+}
+.iphone {
+	width: 375px;
+	height: 667px;
+	background: white;
+}
+/* sider */
+.iphone1 {
+	width: 375px;
+	height: 667px;
+	background-image: url(img/allesider/baggrund.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+}
+.iphone2 {
+	width: 375px;
+	height: 667px;
+	background-image: url(img/allesider/baggrund2.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: none;
+}
+.iphone3 {
+	width: 375px;
+	height: 667px;
+	background-image: url(img/allesider/baggrund2.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: none;
+}
+.iphone4 {
+	width: 375px;
+	height: 667px;
+	background-image: url(img/allesider/baggrund2.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: none;
+}
+.iphone4part2 {
+	width: 375px;
+	height: 667px;
+	background-image: url(img/allesider/baggrund2.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: none;
+}
+.iphone4part3 {
+	width: 375px;
+	height: 667px;
+	background-image: url(img/allesider/baggrund2.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: none;
+}
+.iphone4part4 {
+	width: 375px;
+	height: 667px;
+	background-image: url(img/allesider/baggrund2.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: none;
+}
+.iphone5trin1 {
+	width: 375px;
+	height: 667px;
+	background-image: url(img/allesider/baggrund2.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: none;
+}
+.iphone5trin2 {
+	width: 375px;
+	height: 667px;
+	background-image: url(img/allesider/baggrund2.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: none;
+}
+.iphone5trin3 {
+	width: 375px;
+	height: 667px;
+	background-image: url(img/allesider/baggrund2.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: none;
+}
+.iphone5trin4 {
+	width: 375px;
+	height: 667px;
+	background-image: url(img/allesider/baggrund2.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: none;
+}
+.iphone6 {
+	width: 375px;
+	height: 667px;
+	background-image: url(img/allesider/baggrund.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: none;
+}
+/* indhold i iphone1 */
+.logo {
+	position: absolute;
+	bottom: 55%;
+}
+.sog {
+	position: absolute;
+	bottom: 30%;
+	left: 62%;
+}
+.sog2 {
+	position: absolute;
+	bottom: 43%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 60%;
+}
+.search {
+	width: 100%;
+	position: relative
+}
+.searchTerm {
+	float: left;
+	width: 100%;
+	border: 1px solid black;
+	padding: 5px;
+	height: 20px;
+	border-radius: 5px;
+	color: black;
+}
+/* indhold i iphone2 */
+.sog-resultater {
+	position: absolute;
+	left: 10%;
+	bottom: 90%
+}
+.bottem2 {
+	position: absolute;
+	bottom: 0%;
+	right: 3%;
+}
+.watson {
+	position: absolute;
+	bottom: 70%;
+	left: 0%;
+	padding: 3%;
+	background: rgba(255, 255, 255, 0.6);
+	width: 100%;
+}
+.watson2 {
+	position: absolute;
+	bottom: 50%;
+	padding: 3%;
+}
+.watson3 {
+	position: absolute;
+	bottom: 30%;
+	padding: 3%;
+	background: rgba(255, 255, 255, 0.6);
+	width: 100%;
+}
+.watson4 {
+	position: absolute;
+	bottom: 10%;
+	padding: 3%;
+}
+/* inhold i iphone3 */
+.watson-sort {
+	position: absolute;
+	bottom: 25%;
+	left: 15%;
+}
+.watson-hvid {
+	position: absolute;
+	bottom: 25%;
+	left: 10.5%;
+	display: none;
+}
+.start-knap {
+	position: absolute;
+	bottom: 7%;
+	left: 15%;
+}
+.hvid {
+	position: absolute;
+	bottom: 28%;
+	left: 70%;
+}
+.sorton {
+	position: absolute;
+	bottom: 28%;
+	left: 80%;
+}
+.hvidon {
+	position: absolute;
+	bottom: 28%;
+	left: 70%;
+	display: none;
+}
+.sort {
+	position: absolute;
+	bottom: 28%;
+	left: 80%;
+	display: none;
+}
+/* indhold i iphone4 */
+.iphone4headline {
+	padding-top: 10%;
+	text-align: center;
+}
+.iphone4sideskift {
+	position: absolute;
+	bottom: 0%;
+	right: 3%;
+}
+.skruerosv {
+	position: absolute;
+	top: 20%;
+	height: 25%;
+}
+.skruer {
+	width: 375px;
+	height: auto;
+}
+.skruetrekker {
+	position: absolute;
+	left: 45%;
+	bottom: 15%;
+}
+.pilvenstre {
+	position: absolute;
+	left: 15%;
+	bottom: 20%
+}
+.pilhojre {
+	position: absolute;
+	bottom: 20%;
+	right: 15%;
+}
+/* part2 */
+.pilvenstrepart2 {
+	position: absolute;
+	left: 15%;
+	bottom: 20%
+}
+.pilhojrepart2 {
+	position: absolute;
+	bottom: 20%;
+	right: 15%;
+}
+.vaterpas {
+	position: absolute;
+	left: 46%;
+	bottom: 11%;
+	transform: rotateZ(90deg);
+}
+/* part3 */
+.pilvenstrepart3 {
+	position: absolute;
+	left: 15%;
+	bottom: 20%
+}
+.pilhojrepart3 {
+	position: absolute;
+	bottom: 20%;
+	right: 15%;
+}
+.boremaskine {
+	position: absolute;
+	left: 26%;
+	bottom: 15%;
+}
+/* part4 */
+.pilvenstrepart4 {
+	position: absolute;
+	left: 15%;
+	bottom: 20%
+}
+.pilhojrepart4 {
+	position: absolute;
+	bottom: 20%;
+	right: 15%;
+}
+.bor {
+	position: absolute;
+	left: 49%;
+	bottom: 12%;
+}
+/* iphone5 */
+.iphone5headline {
+	position: absolute;
+	left: 35%;
+	bottom: 85%;
+}
+.iphone5p {
+	position: absolute;
+	bottom: 25%;
+	background: rgba(255, 255, 255, 0.5);
+	width: 375px;
+	height: 70px;
+	text-align: center;
+	padding-top: 5%;
+	font-size: 120%
+}
+.film {
+	position: absolute;
+	width: 375px;
+	height: auto;
+	bottom: 45%;
+}
+.nestetrin {
+	position: absolute;
+	bottom: 0%;
+	right: 3%;
+}
+/* indhold på iphone6 */
+.iphone6h1 {
+	position: absolute;
+	left: 25%;
+	top: 5%;
+}
+.iphone6h2 {
+	position: absolute;
+	left: 4%;
+	top: 12%;
+}
+.wetsondone {
+	position: absolute;
+	bottom: 60%;
+	left: 30%;
+}
+.iphone6p {
+	position: absolute;
+	bottom: 50%;
+	text-align: center;
+}
+.ralateretpro {
+	position: absolute;
+	bottom: 25%;
+}
+.forsideknap {
+	position: absolute;
+	bottom: 10%;
+	left: 25%;
+}
+.forsideknappic{
+height: 74px;
+width: 196px;
+}
+/* tilbage knap på alle side undtaget side 1*/
+.tilbage {
+	position: absolute;
+	bottom: 0%;
+	left: 3%;
+}
