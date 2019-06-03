@@ -20,33 +20,36 @@ bottem2.addEventListener("click", skiftSide2);
 scannu.addEventListener("click", skiftSide2);
 
 
-function skifttilscan(){
+function skifttilscan() {
 
-    iphonescan.style.display = "block";
-    iphone1.style.display = "none";
-    iphone2.style.display = "none";
-    iphone3.style.display = "none";
-    iphone4.style.display = "none";
+	iphonescan.style.display = "block";
+	iphone1.style.display = "none";
+	iphone2.style.display = "none";
+	iphone3.style.display = "none";
+	iphone4.style.display = "none";
 }
-function skiftSide(){
 
-    iphone1.style.display = "none";
-    iphone2.style.display = "block";
-    iphone3.style.display = "none";
-    iphone4.style.display = "none";
+function skiftSide() {
+
+	iphone1.style.display = "none";
+	iphone2.style.display = "block";
+	iphone3.style.display = "none";
+	iphone4.style.display = "none";
 }
-function skiftSide2(){
-    iphonescan.style.display = "none";
-    iphone1.style.display = "none";
-    iphone2.style.display = "none";
-    iphone3.style.display = "block";
-    iphone4.style.display = "none";
+
+function skiftSide2() {
+	iphonescan.style.display = "none";
+	iphone1.style.display = "none";
+	iphone2.style.display = "none";
+	iphone3.style.display = "block";
+	iphone4.style.display = "none";
 }
-function skiftSide3(){
-    iphone1.style.display = "none";
-    iphone2.style.display = "none";
-    iphone3.style.display = "none";
-    iphone4.style.display = "block";
+
+function skiftSide3() {
+	iphone1.style.display = "none";
+	iphone2.style.display = "none";
+	iphone3.style.display = "none";
+	iphone4.style.display = "block";
 }
 
 // skift til hvid eller sort watson
@@ -61,23 +64,24 @@ let watsonSort = document.querySelector(".watson-sort");
 hvid.addEventListener("click", skfitfarvehvid);
 sort.addEventListener("click", skfitfarvesort);
 
-function skfitfarvehvid(){
-    sorton.style.display = "none";
-    hvid.style.display = "none";
-    watsonSort.style.display = "none";
+function skfitfarvehvid() {
+	sorton.style.display = "none";
+	hvid.style.display = "none";
+	watsonSort.style.display = "none";
 
-    hvidon.style.display = "block";
-    sort.style.display = "block";
-    watsonHvid.style.display = "block";
+	hvidon.style.display = "block";
+	sort.style.display = "block";
+	watsonHvid.style.display = "block";
 }
-function skfitfarvesort(){
-    sorton.style.display = "block";
-    hvid.style.display = "block";
-    watsonSort.style.display = "block";
 
-    hvidon.style.display = "none";
-    sort.style.display = "none";
-    watsonHvid.style.display = "none";
+function skfitfarvesort() {
+	sorton.style.display = "block";
+	hvid.style.display = "block";
+	watsonSort.style.display = "block";
+
+	hvidon.style.display = "none";
+	sort.style.display = "none";
+	watsonHvid.style.display = "none";
 }
 
 // skift af værktøj
@@ -104,62 +108,69 @@ pilhojrepart2.addEventListener("click", skifttoj6);
 pilhojrepart3.addEventListener("click", skifttoj7);
 pilhojrepart4.addEventListener("click", skifttoj8);
 
-function skifttoj(){
-    // alert("det virker");
-    iphone4part4.style.display = "block";
-   iphone4.style.display = "none";
-    iphone4part2.style.display = "none";
-    iphone4part3.style.display = "none";
-   
+function skifttoj() {
+	// alert("det virker");
+	iphone4part4.style.display = "block";
+	iphone4.style.display = "none";
+	iphone4part2.style.display = "none";
+	iphone4part3.style.display = "none";
+
 }
-function skifttoj2(){
-    // alert("det virker");
-    iphone4.style.display = "block";
-    iphone4part2.style.display = "none";
-    iphone4part3.style.display = "none";
-    iphone4part4.style.display = "none";
+
+function skifttoj2() {
+	// alert("det virker");
+	iphone4.style.display = "block";
+	iphone4part2.style.display = "none";
+	iphone4part3.style.display = "none";
+	iphone4part4.style.display = "none";
 }
-function skifttoj3(){
-    // alert("det virker");
-    iphone4.style.display = "none";
-    iphone4part2.style.display = "block";
-    iphone4part3.style.display = "none";
-    iphone4part4.style.display = "none";
+
+function skifttoj3() {
+	// alert("det virker");
+	iphone4.style.display = "none";
+	iphone4part2.style.display = "block";
+	iphone4part3.style.display = "none";
+	iphone4part4.style.display = "none";
 }
-function skifttoj4(){
-    // alert("det virker");
-    iphone4.style.display = "none";
-    iphone4part2.style.display = "none";
-    iphone4part3.style.display = "block";
-    iphone4part4.style.display = "none";
+
+function skifttoj4() {
+	// alert("det virker");
+	iphone4.style.display = "none";
+	iphone4part2.style.display = "none";
+	iphone4part3.style.display = "block";
+	iphone4part4.style.display = "none";
 }
-function skifttoj5(){
-    // alert("det virker");
-    iphone4.style.display = "none";
-    iphone4part2.style.display = "block";
-    iphone4part3.style.display = "none";
-    iphone4part4.style.display = "none";
+
+function skifttoj5() {
+	// alert("det virker");
+	iphone4.style.display = "none";
+	iphone4part2.style.display = "block";
+	iphone4part3.style.display = "none";
+	iphone4part4.style.display = "none";
 }
-function skifttoj6(){
-    // alert("det virker");
-    iphone4.style.display = "none";
-    iphone4part2.style.display = "none";
-    iphone4part3.style.display = "block";
-    iphone4part4.style.display = "none";
+
+function skifttoj6() {
+	// alert("det virker");
+	iphone4.style.display = "none";
+	iphone4part2.style.display = "none";
+	iphone4part3.style.display = "block";
+	iphone4part4.style.display = "none";
 }
-function skifttoj7(){
-    // alert("det virker");
-    iphone4.style.display = "none";
-    iphone4part2.style.display = "none";
-    iphone4part3.style.display = "none";
-    iphone4part4.style.display = "block";
+
+function skifttoj7() {
+	// alert("det virker");
+	iphone4.style.display = "none";
+	iphone4part2.style.display = "none";
+	iphone4part3.style.display = "none";
+	iphone4part4.style.display = "block";
 }
-function skifttoj8(){
-    // alert("det virker");
-    iphone4.style.display = "block";
-    iphone4part2.style.display = "none";
-    iphone4part3.style.display = "none";
-    iphone4part4.style.display = "none";
+
+function skifttoj8() {
+	// alert("det virker");
+	iphone4.style.display = "block";
+	iphone4part2.style.display = "none";
+	iphone4part3.style.display = "none";
+	iphone4part4.style.display = "none";
 }
 // skift side fra værktøj til trin
 let iphone4sideskift1 = document.querySelector(".iphone4sideskift1");
@@ -174,14 +185,14 @@ iphone4sideskift2.addEventListener("click", skiftside4til5);
 iphone4sideskift3.addEventListener("click", skiftside4til5);
 iphone4sideskift4.addEventListener("click", skiftside4til5);
 
-function skiftside4til5(){
-    iphone4.style.display = "none";
-    iphone4part2.style.display = "none";
-    iphone4part3.style.display = "none";
-    iphone4part4.style.display = "none";
-    iphone5trin1.style.display = "block";
+function skiftside4til5() {
+	iphone4.style.display = "none";
+	iphone4part2.style.display = "none";
+	iphone4part3.style.display = "none";
+	iphone4part4.style.display = "none";
+	iphone5trin1.style.display = "block";
 }
-   
+
 
 // skift af trin 1 2 3 og 4
 let nestetrin1 = document.querySelector(".nestetrin1");
@@ -203,33 +214,36 @@ nestetrin3.addEventListener("click", skifttrin3);
 nestetrin4.addEventListener("click", skifttrin4);
 
 
-function skifttrin1(){
-    iphone5trin1.style.display = "none";
-    iphone5trin2.style.display = "block";
-    iphone5trin3.style.display = "none";
-    iphone5trin4.style.display = "none";
-    iphone6.style.display = "none";
+function skifttrin1() {
+	iphone5trin1.style.display = "none";
+	iphone5trin2.style.display = "block";
+	iphone5trin3.style.display = "none";
+	iphone5trin4.style.display = "none";
+	iphone6.style.display = "none";
 }
-function skifttrin2(){
-    iphone5trin1.style.display = "none";
-    iphone5trin2.style.display = "none";
-    iphone5trin3.style.display = "block";
-    iphone5trin4.style.display = "none";
-    iphone6.style.display = "none";
+
+function skifttrin2() {
+	iphone5trin1.style.display = "none";
+	iphone5trin2.style.display = "none";
+	iphone5trin3.style.display = "block";
+	iphone5trin4.style.display = "none";
+	iphone6.style.display = "none";
 }
-function skifttrin3(){
-    iphone5trin1.style.display = "none";
-    iphone5trin2.style.display = "none";
-    iphone5trin3.style.display = "none";
-    iphone5trin4.style.display = "block";
-    iphone6.style.display = "none";
+
+function skifttrin3() {
+	iphone5trin1.style.display = "none";
+	iphone5trin2.style.display = "none";
+	iphone5trin3.style.display = "none";
+	iphone5trin4.style.display = "block";
+	iphone6.style.display = "none";
 }
-function skifttrin4(){
-    iphone5trin1.style.display = "none";
-    iphone5trin2.style.display = "none";
-    iphone5trin3.style.display = "none";
-    iphone5trin4.style.display = "none";
-    iphone6.style.display = "block";
+
+function skifttrin4() {
+	iphone5trin1.style.display = "none";
+	iphone5trin2.style.display = "none";
+	iphone5trin3.style.display = "none";
+	iphone5trin4.style.display = "none";
+	iphone6.style.display = "block";
 }
 
 // skfit fra iphone6 til iphone 1
@@ -237,9 +251,9 @@ let forsideknap = document.querySelector(".forsideknap");
 
 forsideknap.addEventListener("click", hjem);
 
-function hjem(){
-    iphone6.style.display = "none";
-    iphone1.style.display = "block";
+function hjem() {
+	iphone6.style.display = "none";
+	iphone1.style.display = "block";
 
 }
 
@@ -279,49 +293,55 @@ iphone5tilbage3.addEventListener("click", tilbagetiltrin2);
 iphone5tilbage4.addEventListener("click", tilbagetiltrin3);
 
 
-function tilbagetilside1(){
-    iphone2.style.display = "none";
-    iphone1.style.display = "block";
-    iphonescan.style.display = "none";
+function tilbagetilside1() {
+	iphone2.style.display = "none";
+	iphone1.style.display = "block";
+	iphonescan.style.display = "none";
 }
-function tilbagetilside2(){
-    iphone3.style.display = "none";
-    iphone2.style.display = "block";
+
+function tilbagetilside2() {
+	iphone3.style.display = "none";
+	iphone2.style.display = "block";
 }
-function tilbagetilside3(){
-    iphone4.style.display = "none";
-    iphone4part2.style.display = "none";
-    iphone4part3.style.display = "none";
-    iphone4part4.style.display = "none";
-    iphone3.style.display = "block";
+
+function tilbagetilside3() {
+	iphone4.style.display = "none";
+	iphone4part2.style.display = "none";
+	iphone4part3.style.display = "none";
+	iphone4part4.style.display = "none";
+	iphone3.style.display = "block";
 }
-function tilbagetilside4(){
-    iphone5trin1.style.display = "none";
-    iphone4.style.display = "block";
+
+function tilbagetilside4() {
+	iphone5trin1.style.display = "none";
+	iphone4.style.display = "block";
 }
-function tilbagetilside5(){
-    iphone6.style.display = "none";
-    iphone5trin4.style.display = "block";
+
+function tilbagetilside5() {
+	iphone6.style.display = "none";
+	iphone5trin4.style.display = "block";
 }
 
 
 
 
-function tilbagetiltrin1(){
-    iphone5trin1.style.display = "block";
-    iphone5trin2.style.display = "none";
-    iphone5trin3.style.display = "none";
-    iphone5trin4.style.display = "none";
+function tilbagetiltrin1() {
+	iphone5trin1.style.display = "block";
+	iphone5trin2.style.display = "none";
+	iphone5trin3.style.display = "none";
+	iphone5trin4.style.display = "none";
 }
-function tilbagetiltrin2(){
-    iphone5trin1.style.display = "none";
-    iphone5trin2.style.display = "block";
-    iphone5trin3.style.display = "none";
-    iphone5trin4.style.display = "none";
+
+function tilbagetiltrin2() {
+	iphone5trin1.style.display = "none";
+	iphone5trin2.style.display = "block";
+	iphone5trin3.style.display = "none";
+	iphone5trin4.style.display = "none";
 }
-function tilbagetiltrin3(){
-    iphone5trin1.style.display = "none";
-    iphone5trin2.style.display = "none";
-    iphone5trin3.style.display = "block";
-    iphone5trin4.style.display = "none";
+
+function tilbagetiltrin3() {
+	iphone5trin1.style.display = "none";
+	iphone5trin2.style.display = "none";
+	iphone5trin3.style.display = "block";
+	iphone5trin4.style.display = "none";
 }
