@@ -2,18 +2,32 @@ let sog = document.querySelector(".sog");
 let watson3 = document.querySelector(".watson3");
 let startknap = document.querySelector(".start-knap");
 let bottem2 = document.querySelector(".bottem2");
+let scanpic = document.querySelector(".scanpic");
+let scannu = document.querySelector(".scannu");
 
 
 let iphone1 = document.querySelector(".iphone1");
+let iphonescan = document.querySelector(".iphonescan");
 let iphone2 = document.querySelector(".iphone2");
 let iphone3 = document.querySelector(".iphone3");
 let iphone4 = document.querySelector(".iphone4");
 
+scanpic.addEventListener("click", skifttilscan);
 sog.addEventListener("click", skiftSide);
 watson3.addEventListener("click", skiftSide2);
 startknap.addEventListener("click", skiftSide3);
 bottem2.addEventListener("click", skiftSide2);
+scannu.addEventListener("click", skiftSide2);
 
+
+function skifttilscan(){
+
+    iphonescan.style.display = "block";
+    iphone1.style.display = "none";
+    iphone2.style.display = "none";
+    iphone3.style.display = "none";
+    iphone4.style.display = "none";
+}
 function skiftSide(){
 
     iphone1.style.display = "none";
@@ -22,14 +36,13 @@ function skiftSide(){
     iphone4.style.display = "none";
 }
 function skiftSide2(){
-
+    iphonescan.style.display = "none";
     iphone1.style.display = "none";
     iphone2.style.display = "none";
     iphone3.style.display = "block";
     iphone4.style.display = "none";
 }
 function skiftSide3(){
-
     iphone1.style.display = "none";
     iphone2.style.display = "none";
     iphone3.style.display = "none";
@@ -239,7 +252,7 @@ let tilbagetil5 = document.querySelector(".tilbagetil5");
 let tilbagetil6 = document.querySelector(".tilbagetil6");
 
 
-
+let tilbagetilforside = document.querySelector(".tilbagetilforside");
 let tilbagetil3part2 = document.querySelector(".tilbagetil3part2");
 let tilbagetil3part3 = document.querySelector(".tilbagetil3part3");
 let tilbagetil3part4 = document.querySelector(".tilbagetil3part4");
@@ -249,7 +262,7 @@ let iphone5tilbage3 = document.querySelector(".iphone5tilbage3");
 let iphone5tilbage4 = document.querySelector(".iphone5tilbage4");
 
 
-
+tilbagetilforside.addEventListener("click", tilbagetilside1);
 tilbagetil1.addEventListener("click", tilbagetilside1);
 tilbagetil2.addEventListener("click", tilbagetilside2);
 tilbagetil3.addEventListener("click", tilbagetilside3);
@@ -269,6 +282,7 @@ iphone5tilbage4.addEventListener("click", tilbagetiltrin3);
 function tilbagetilside1(){
     iphone2.style.display = "none";
     iphone1.style.display = "block";
+    iphonescan.style.display = "none";
 }
 function tilbagetilside2(){
     iphone3.style.display = "none";

@@ -1,6 +1,7 @@
 * {
 	margin: 0;
 	font-family: Helvetica;
+	font-weight: 300;
 }
 p {
 	font-size: 140%;
@@ -22,6 +23,16 @@ h2 {
 	background-repeat: no-repeat;
 	background-size: cover;
 	display: block;
+}
+.iphonescan{
+	width: 375px;
+	height: 667px;
+	background-image: url(img/allesider/baggrund2.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: none;
+
 }
 .iphone2 {
 	width: 375px;
@@ -127,17 +138,24 @@ h2 {
 	position: absolute;
 	bottom: 55%;
 }
+.scanpic{
+	position: absolute;
+	height: 57px;
+	bottom: 30%;
+	left: 11%;
+}
 .sog {
 	position: absolute;
-	bottom: 30%;
+	height: 63px;
+	bottom: 29%;
 	left: 62%;
 }
 .sog2 {
 	position: absolute;
-	bottom: 43%;
+	bottom: 40%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	width: 60%;
+	width: 74%;
 }
 .search {
 	width: 100%;
@@ -152,6 +170,23 @@ h2 {
 	border-radius: 5px;
 	color: black;
 }
+/* indhold i iphonescan */
+.kamera{
+	position: absolute;
+	width: 100%;
+	bottom: 35%;
+}
+.scannu{
+	position: absolute;
+	width: 60%;
+	bottom: 13%;
+	left: 22%;
+}
+.scanh2{
+	padding-top: 10%;
+	text-align: center;
+}
+
 /* indhold i iphone2 */
 .sog-resultater {
 	position: absolute;
